@@ -1,14 +1,22 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "David",
-      "age": 30
-    },
-    {
-      "name": "John",
-      "id": 2,
-      "age": 40
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Biscotte Restaurant",
+                "description": "Welcome to Biscotte restaurant! Restaurant! Biscotte offers a cuisine based on fresh, quality products, often local, organic when possible, and always produced by passionate producers.",
+                "createdAt": "2022-06-22T20:55:12.728Z",
+                "updatedAt": "2022-06-22T20:59:21.512Z",
+                "publishedAt": "2022-06-22T20:59:21.511Z"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 1
+        }
     }
-  ]
 }
